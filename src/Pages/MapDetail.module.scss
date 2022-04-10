@@ -1,0 +1,18 @@
+
+.mainMap {
+	width: auto;
+	height: 100vh;
+}
+
+.smallMap {
+	cursor: pointer;
+	margin: 0 0.2rem;
+	border: 1px solid white;
+}
+
+.backButton {
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 16px;
+}

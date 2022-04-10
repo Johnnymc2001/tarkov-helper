@@ -1,0 +1,109 @@
+.table {
+    color: white;
+    border-collapse: collapse;
+    border:  1px solid white;
+    margin: 0 5%;
+	width: 90vw;
+
+    th,
+    td {
+        border: 1px solid rgba(255, 255, 255, 0.233);
+    }
+
+    thead {
+        background-color: rgba(100, 100, 100, 0.9);
+        position: sticky;
+        top: 0;
+    }
+
+    th,
+    td {
+        padding: 0.25rem 0.5rem;
+    }
+
+    tr.items:hover {
+        background-color: rgba(133, 133, 133, 0.391);
+        cursor: pointer;
+    }
+
+    .ammoCategory {
+        border-bottom: 1px solid white;
+        background-color: rgba(255, 255, 255, 0.233);
+    }
+
+    @media screen and (max-width: 600px) {
+        .stickyCol {
+
+            position: -webkit-sticky;
+            position: sticky;
+            background-color: black;
+        }
+
+        .firstCol {
+            width: 100px;
+            min-width: 100px;
+            max-width: 100px;
+            left: 0px;
+        }
+    }
+
+    .smallColumn {
+        width: 5%;
+    }
+
+    .highlight {
+        color: orange
+    }
+
+}
+
+.green {
+    color: green
+}
+
+.red {
+    color: red;
+}
+
+.pen6 {
+    background-color: #00990080;
+}
+
+.pen5 {
+    background-color: #00640080;
+}
+
+.pen4 {
+    background-color: #FB9C0E80;
+}
+
+.pen3 {
+    background-color: #ac660080;
+}
+
+.pen2 {
+    background-color: #EB6C0D80;
+}
+
+.pen1 {
+    background-color: #dd333380;
+}
+
+.pen0 {
+    background-color: #b3242580;
+}
+
+.pen0,
+.pen1,
+.pen2,
+.pen3,
+.pen4,
+.pen5,
+.pen6 {
+    text-align: center;
+
+}
+
+.penTable {
+	
+}
